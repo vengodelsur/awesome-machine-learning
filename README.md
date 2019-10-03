@@ -151,19 +151,19 @@ Some interesting issues:
 #### Computer Vision
 
 * [albumentations](https://github.com/albu/albumentations) - А fast and framework agnostic image augmentation library that implements a diverse set of augmentation techniques. Supports classification, segmentation, detection out of the box. Was used to win a number of Deep Learning competitions at Kaggle, Topcoder and those that were a part of the CVPR workshops.
-* [Detectron](https://github.com/facebookresearch/Detectron) - FAIR's software system that implements state-of-the-art object detection algorithms, including Mask R-CNN. It is written in Python and powered by the Caffe2 deep learning framework.
-* [dockerface](https://github.com/natanielruiz/dockerface) - Easy to install and use deep learning Faster R-CNN face detection for images and video in a docker container.
-* [face_recognition](https://github.com/ageitgey/face_recognition) - Face recognition library that recognize and manipulate faces from Python or from the command line.
+Some interesting issues:
+  * [Add MaxConnectedComponent](https://github.com/albu/albumentations/issues/260)
+  * [Unexpected behavior of transforms for multi-label masks](https://github.com/albu/albumentations/issues/280)
+  * [Add RegionConfusion Transform](https://github.com/albu/albumentations/issues/275)
 * [imgaug](https://github.com/aleju/imgaug) - Image augmentation for machine learning experiments.
-* [imutils](https://github.com/jrosebr1/imutils) - A library containg Convenience functions to make basic image processing operations such as translation, rotation, resizing, skeletonization, and displaying Matplotlib images easier with OpenCV and Python.
-* [mmdetection](https://github.com/open-mmlab/mmdetection) - object detection toolbox based on PyTorch, part of the open-mmlab project.
+Recommended issues tags: [TODO](https://github.com/aleju/imgaug/issues?q=is%3Aissue+is%3Aopen+label%3ATODO)
 * [mtcnn](https://github.com/ipazc/mtcnn) - MTCNN face detection implementation for TensorFlow, as a PIP package.  
-* [OpenFace](https://cmusatyalab.github.io/openface/) - Free and open source face recognition with deep neural networks.
-* [pytessarct](https://github.com/madmaze/pytesseract) - Python-tesseract is an optical character recognition (OCR) tool for python. That is, it will recognize and "read" the text embedded in images.Python-tesseract is a wrapper for [Google's Tesseract-OCR Engine](https://github.com/tesseract-ocr/tesseract)>.
-* [PyTorchCV](https://github.com/donnyyou/PyTorchCV) - A PyTorch-Based Framework for Deep Learning in Computer Vision.
+Some interesting issues:
+  * [nipples being detected as eyes](https://github.com/ipazc/mtcnn/issues/52)
+  * [Migrate to TF 2.0](https://github.com/ipazc/mtcnn/issues/56)
+  * [Need face alignment feature](https://github.com/ipazc/mtcnn/issues/44)
 * [Scikit-Image](https://github.com/scikit-image/scikit-image) - A collection of algorithms for image processing in Python.
-* [SimpleCV](http://simplecv.org/) - An open source computer vision framework that gives access to several high-powered computer vision libraries, such as OpenCV. Written on Python and runs on Mac, Windows, and Ubuntu Linux.
-* [Vigranumpy](https://github.com/ukoethe/vigra) - Python bindings for the VIGRA C++ computer vision library.
+Recommended issues tags: [type: enhancement](https://github.com/scikit-image/scikit-image/issues?q=is%3Aissue+is%3Aopen+label%3A%22type%3A+enhancement%22), [type: documentation](https://github.com/scikit-image/scikit-image/issues?q=is%3Aissue+is%3Aopen+label%3A%22type%3A+documentation%22), [type: performance](https://github.com/scikit-image/scikit-image/issues?q=is%3Aissue+is%3Aopen+label%3A%22type%3A+perfomance%22), [good first issue](https://github.com/scikit-image/scikit-image/issues?q=is%3Aissue+is%3Aopen+label%3A%22good+first+issue%22)
 
 <a name="python-nlp"></a>
 #### Natural Language Processing
