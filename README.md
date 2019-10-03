@@ -157,6 +157,8 @@ Some interesting issues:
   * [Add RegionConfusion Transform](https://github.com/albu/albumentations/issues/275)
 * [imgaug](https://github.com/aleju/imgaug) - Image augmentation for machine learning experiments.
 Recommended issues tags: [TODO](https://github.com/aleju/imgaug/issues?q=is%3Aissue+is%3Aopen+label%3ATODO)
+* [mmdetection](https://github.com/open-mmlab/mmdetection) - object detection toolbox based on PyTorch, part of the open-mmlab project.
+Recommended issues tags: [community help wanted](https://github.com/open-mmlab/mmdetection/issues?q=is%3Aissue+is%3Aopen+label%3A%22community+help+wanted%22)
 * [mtcnn](https://github.com/ipazc/mtcnn) - MTCNN face detection implementation for TensorFlow, as a PIP package.  
 Some interesting issues:
   * [nipples being detected as eyes](https://github.com/ipazc/mtcnn/issues/52)
@@ -213,12 +215,15 @@ Recommended issues tags: [type: enhancement](https://github.com/scikit-image/sci
 
 <a name="python-recsys"></a>
 #### Recommender systems
-* [Cornac](https://github.com/PreferredAI/cornac) - A comparative framework for multimodal recommender systems with a focus on models leveraging auxiliary data.
 * [implicit](https://github.com/benfred/implicit) - Fast Python Collaborative Filtering for Implicit Feedback Datasets 
+Some interesting issues:
+  * [Lack of tutorials](https://github.com/benfred/implicit/issues/215)
 * [Microsoft Recommenders](https://github.com/Microsoft/Recommenders): Examples and best practices for building recommendation systems, provided as Jupyter notebooks. The repo contains some of the latest state of the art algorithms from Microsoft Research as well as from other companies and institutions.
-* [python-recsys](https://github.com/ocelma/python-recsys) - A Python library for implementing a Recommender System.
-* [recommender_test_bench](https://github.com/rampeer/recommender_test_bench) - Recommender system test bench 
+Recommended issues tags: [notebook](https://github.com/Microsoft/Recommenders/issues?q=is%3Aissue+is%3Aopen+label%3Anotebook), [test](https://github.com/Microsoft/Recommenders/issues?q=is%3Aissue+is%3Aopen+label%3Atest), [algorithm](https://github.com/Microsoft/Recommenders/issues?q=is%3Aissue+is%3Aopen+label%3Aalgorithm), [enhancement](https://github.com/Microsoft/Recommenders/issues?q=is%3Aissue+is%3Aopen+label%3Aenhancement), [help wanted](https://github.com/Microsoft/Recommenders/issues?q=is%3Aissue+is%3Aopen+label%3A%22help+wanted%22), [style improvement](https://github.com/Microsoft/Recommenders/issues?q=is%3Aissue+is%3Aopen+label%3A%22style+improvement%22)
 * [Surprise](https://surpriselib.com) - A scikit for building and analyzing recommender systems.
+Some interesting issues:
+  * [Parallel Computation of Similarity Matrices](https://github.com/NicolasHug/Surprise/issues/169)
+  * [Grid search classes should accept estimator instances instead of just classes](https://github.com/NicolasHug/Surprise/issues/213)
 
 <a name="python-general-purpose"></a>
 #### General-Purpose Machine Learning
