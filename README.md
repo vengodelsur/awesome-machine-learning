@@ -126,6 +126,7 @@ Some interesting issues:
 <a name="cpp-nlp"></a>
 #### Natural Language Processing
 
+* [BigARTM](https://github.com/bigartm/bigartm) - topic modelling platform.
 * [BLLIP Parser](https://github.com/BLLIP/bllip-parser) - BLLIP Natural Language Parser (also known as the Charniak-Johnson parser).
 Some interesting issues:
   * [parseIt exits when it sees an empty sentence](https://github.com/BLLIP/bllip-parser/issues/37)
@@ -171,47 +172,38 @@ Recommended issues tags: [type: enhancement](https://github.com/scikit-image/sci
 #### Natural Language Processing
 
 * [allennlp](https://github.com/allenai/allennlp) - An open-source NLP research library, built on PyTorch. 
-* [BigARTM](https://github.com/bigartm/bigartm) - topic modelling platform.
+Recommended issues tags: [Contributions welcome](https://github.com/allenai/allennlp/issues?q=is%3Aissue+is%3Aopen+label%3A%22Contributions+welcome%22)
 * [CLTK](https://github.com/cltk/cltk) - The Classical Language Toolkit.
-* [colibri-core](https://github.com/proycon/colibri-core) - Python binding to C++ library for extracting and working with with basic linguistic constructions such as n-grams and skipgrams in a quick and memory-efficient way.
 * [Dedupe](https://github.com/dedupeio/dedupe) - A python library for accurate and scalable fuzzy matching, record deduplication and entity-resolution.
 * [DeepPavlov](https://github.com/deepmipt/DeepPavlov/) - conversational AI library with many pretrained Russian NLP models.
-* [dostoevsky](https://github.com/bureaucratic-labs/dostoevsky) - Sentiment analysis library for russian language
 * [DrQA](https://github.com/facebookresearch/DrQA) - Reading Wikipedia to answer open-domain questions.
 * [editdistance](https://pypi.org/project/editdistance/) - fast implementation of edit distance.
 * [FARM](https://github.com/deepset-ai/FARM) - Fast & easy transfer learning for NLP. Harvesting language models for the industry. 
-* [Fuzzy Wuzzy](https://github.com/seatgeek/fuzzywuzzy) - Fuzzy String Matching in Python.
-* [genius](https://github.com/duanhongyi/genius) - A Chinese segment base on Conditional Random Field.
+Some interesting issues:
+  * [Add ULMFiT](https://github.com/deepset-ai/FARM/issues/17)
+  * [Add Conditional Random Fields as PredictionHead for Named Entity Recognition](https://github.com/deepset-ai/FARM/issues/40)
 * [jellyfish](https://github.com/jamesturk/jellyfish) - a python library for doing approximate and phonetic matching of strings.
-* [jieba](https://github.com/fxsjy/jieba#jieba-1) - Chinese Words Segmentation Utilities.
-* [KoNLPy](http://konlpy.org) - A Python package for Korean natural language processing.
-* [LASER](https://github.com/facebookresearch/LASER) - Language-Agnostic SEntence Representations 
+Some interesting issues:
+  * [Adding QWERTY support to DL distance](https://github.com/jamesturk/jellyfish/issues/92)
 * [natasha](https://github.com/natasha/natasha) - Rule-based named entity recognition library for russian language 
+Some interesting issues:
+  * [инструкция по обучению crf-теггера](https://github.com/natasha/natasha/issues/70)
+  * [Фамилии в которых присутствует буква "Ё" неверно распознаются](https://github.com/natasha/natasha/issues/77)
+  * [Не работает матчинг проспектов если вокруг адреса есть текст](https://github.com/natasha/natasha/issues/64)
 * [NeuroNER](https://github.com/Franck-Dernoncourt/NeuroNER) - Named-entity recognition using neural networks providing state-of-the-art-results
 * [NLTK](https://www.nltk.org/) - A leading platform for building Python programs to work with human language data.
 * [num2words](https://github.com/savoirfairelinux/num2words) - Modules to convert numbers to words. 42 --> forty-two 
 * [Pattern](http://www.clips.ua.ac.be/pattern) - A web mining module for the Python programming language. It has tools for natural language processing, machine learning, among others.
-* [pkuseg-python](https://github.com/lancopku/pkuseg-python) - A better version of Jieba, developed by Peking University. 
 * [Polyglot](https://github.com/aboSamoor/polyglot) - Multilingual text (NLP) processing toolkit.
-* [pymorphy2](https://github.com/kmike/pymorphy2) - Morphological analyzer / inflection engine for Russian and Ukrainian languages.
-* [PyNLPl](https://github.com/proycon/pynlpl) - Python Natural Language Processing Library. General purpose NLP library for Python. Also contains some specific modules for parsing common NLP formats, most notably for [FoLiA](https://proycon.github.io/folia/), but also ARPA language models, Moses phrasetables, GIZA++ alignments.
-* [PyStanfordDependencies](https://github.com/dmcc/PyStanfordDependencies) - Python interface for converting Penn Treebank trees to Stanford Dependencies.
-* [python-frog](https://github.com/proycon/python-frog) - Python binding to Frog, an NLP suite for Dutch. (pos tagging, lemmatisation, dependency parsing, NER)
-* [python-ucto](https://github.com/proycon/python-ucto) - Python binding to ucto (a unicode-aware rule-based tokenizer for various languages).
-* [python-zpar](https://github.com/EducationalTestingService/python-zpar) - Python bindings for [ZPar](https://github.com/frcchang/zpar), a statistical part-of-speech-tagger, constiuency parser, and dependency parser for English.
 * [Quepy](https://github.com/machinalis/quepy) - A python framework to transform natural language questions to queries in a database query language.
 * [rasa_nlu](https://github.com/RasaHQ/rasa_nlu) - turn natural language into structured data.
-* [Rosetta](https://github.com/columbia-applied-data-science/rosetta) - Text processing tools and wrappers (e.g. Vowpal Wabbit)
 * [Snips NLU](https://github.com/snipsco/snips-nlu) - Natural Language Understanding library for intent classification and entity extraction
-* [SnowNLP](https://github.com/isnowfy/snownlp) - A library for processing Chinese text.
-* [spacy-ru](https://github.com/buriy/spacy-ru) - Russian language models for spaCy 
 * [spaCy](https://github.com/explosion/spaCy) - Industrial strength NLP with Python and Cython.
-* [spammy](https://github.com/tasdikrahman/spammy) - A library for email Spam filtering built on top of nltk
 * [textacy](https://github.com/chartbeat-labs/textacy) - higher-level NLP built on Spacy.
-* [TextBlob](http://textblob.readthedocs.io/en/dev/) - Providing a consistent API for diving into common natural language processing (NLP) tasks. Stands on the giant shoulders of NLTK and Pattern, and plays nicely with both.
 * [transformers](https://github.com/huggingface/transformers) - Transformers: State-of-the-art Natural Language Processing for TensorFlow 2.0 and PyTorch.  
-* [wmd-relax](https://github.com/src-d/wmd-relax) - Calculates Word Mover's Distance Insanely Fast 
-* [yase](https://github.com/PPACI/yase) - Transcode sentence (or other sequence) to list of word vector .
+Some interesting issues:
+  * [Instruction for Using XLM Text Generations](https://github.com/huggingface/transformers/issues/1414)
+  * [add albert](https://github.com/huggingface/transformers/issues/1370)
 
 <a name="python-recsys"></a>
 #### Recommender systems
