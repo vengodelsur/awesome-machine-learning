@@ -79,11 +79,24 @@ Further resources:
 #### Computer Vision
 
 * [DLib](http://dlib.net/imaging.html) - DLib has C++ and Python interfaces for face detection and training general object detectors.
+Recommended issues tags: [help wanted](https://github.com/davisking/dlib/issues?q=is%3Aissue+is%3Aopen+label%3A%22help+wanted%22)
+Some interesting issues:
+  * [3D convolution and pooling](https://github.com/davisking/dlib/issues/989)
+  * [Provide python wheels](https://github.com/davisking/dlib/issues/1527)
+  * [Support for reading images in correct orientation using EXIF data](https://github.com/davisking/dlib/issues/1706)
+  * [Add support of extended kernel recursive least squares algorithm](https://github.com/davisking/dlib/issues/515)
+  * [find_optimal_rect_filter not interface in Python API](https://github.com/davisking/dlib/issues/1887)
 * [EBLearn](http://eblearn.sourceforge.net/) - Eblearn is an object-oriented C++ library that implements various machine learning models **[Deprecated]**
 * [libfacedetection](https://github.com/ShiqiYu/libfacedetection) - An open source library for face detection in images. The face detection speed can reach 1500FPS. 
 * [Multitarget-tracker](https://github.com/Smorodov/Multitarget-tracker) - Multiple Object Tracker, Based on Hungarian algorithm + Kalman filter.
 * [nvvl](https://github.com/NVIDIA/nvvl) - A library that uses hardware acceleration to load sequences of video frames to facilitate machine learning training 
 * [OpenCV](https://opencv.org) - OpenCV has C++, C, Python, Java and MATLAB interfaces and supports Windows, Linux, Android and Mac OS.
+Recommended issues tags: [needs investigation](https://github.com/opencv/opencv/issues?q=is%3Aissue+is%3Aopen+label%3A%22needs+investigation%22), [good first issue](https://github.com/opencv/opencv/issues?q=is%3Aissue+is%3Aopen+label%3A%22good+first+issue%22), [category: samples](https://github.com/opencv/opencv/issues?q=is%3Aissue+is%3Aopen+label%3A%22category%3A+samples%22), [category: documentation](https://github.com/opencv/opencv/issues?q=is%3Aissue+is%3Aopen+label%3A%22category%3A+documentation%22), [feature](https://github.com/opencv/opencv/issues?q=is%3Aissue+is%3Aopen+label%3Afeature)
+Some interesting issues:
+  * [Incomplete Python BRIEF Example](https://github.com/opencv/opencv/issues/14093)
+  * [kalman.cpp sample (not module) seems to compare wrong entities](https://github.com/opencv/opencv/issues/5042)
+  * [Crop and resize to work with blobFromImages](https://github.com/opencv/opencv/issues/15149)
+  * [Python typing stub](https://github.com/opencv/opencv/issues/14590)
 * [VIGRA](https://github.com/ukoethe/vigra) - VIGRA is a generic cross-platform C++ computer vision and machine learning library for volumes of arbitrary dimensionality with Python bindings.
 
 <a name="cpp-general-purpose"></a>
@@ -92,42 +105,74 @@ Further resources:
 * [BanditLib](https://github.com/jkomiyama/banditlib) - A simple Multi-armed Bandit library. **[Deprecated]**
 * [Caffe](https://github.com/BVLC/caffe) - A deep learning framework developed with cleanliness, readability, and speed in mind. [DEEP LEARNING]
 * [CatBoost](https://github.com/catboost/catboost) - General purpose gradient boosting on decision trees library with categorical features support out of the box. It is easy to install, contains fast inference implementation and supports CPU and GPU (even multi-GPU) computation.
+Recommended issues tags: [documentation](https://github.com/catboost/catboost/issues?q=is%3Aissue+is%3Aopen+label%3Adocumentation),[need info](https://github.com/catboost/catboost/issues?q=is%3Aissue+is%3Aopen+label%3A%22need+info%22), [help wanted](https://github.com/catboost/catboost/issues?q=is%3Aissue+is%3Aopen+label%3A%22help+wanted%22), [good first issue](https://github.com/catboost/catboost/issues?q=is%3Aissue+is%3Aopen+label%3A%22good+first+issue%22)
 * [CNTK](https://github.com/Microsoft/CNTK) - The Computational Network Toolkit (CNTK) by Microsoft Research, is a unified deep-learning toolkit that describes neural networks as a series of computational steps via a directed graph.
 * [CUDA](https://code.google.com/p/cuda-convnet/) - This is a fast C++/CUDA implementation of convolutional [DEEP LEARNING]
 * [DeepDetect](https://github.com/jolibrain/deepdetect) - A machine learning API and server written in C++11. It makes state of the art machine learning easy to work with and integrate into existing applications.
 * [Distributed Machine learning Tool Kit (DMTK)](http://www.dmtk.io/) - A distributed machine learning (parameter server) framework by Microsoft. Enables training models on large data sets across multiple machines. Current tools bundled with it include: LightLDA and Distributed (Multisense) Word Embedding.
 * [DLib](http://dlib.net/ml.html) - A suite of ML tools designed to be easy to imbed in other applications.
+Recommended issues tags: [help wanted](https://github.com/davisking/dlib/issues?q=is%3Aissue+is%3Aopen+label%3A%22help+wanted%22)
+Some interesting issues:
+  * [3D convolution and pooling](https://github.com/davisking/dlib/issues/989)
+  * [Provide python wheels](https://github.com/davisking/dlib/issues/1527)
+  * [Support for reading images in correct orientation using EXIF data](https://github.com/davisking/dlib/issues/1706)
+  * [Add support of extended kernel recursive least squares algorithm](https://github.com/davisking/dlib/issues/515)
+  * [find_optimal_rect_filter not interface in Python API](https://github.com/davisking/dlib/issues/1887)
 * [DSSTNE](https://github.com/amznlabs/amazon-dsstne) - A software library created by Amazon for training and deploying deep neural networks using GPUs which emphasizes speed and scale over experimental flexibility.
 * [DyNet](https://github.com/clab/dynet) - A dynamic neural network library working well with networks that have dynamic structures that change for every training instance. Written in C++ with bindings in Python.
+Some interesting issues:
+  * [Simple C++ LSTM example for time-series prediction](https://github.com/clab/dynet/issues/1585)
 * [Feast](https://github.com/gojek/feast) - A feature store for the management, discovery, and access of machine learning features. Feast provides a consistent view of feature data for both model training and model serving.
 * [Featuretools](https://github.com/featuretools/featuretools) - A library for automated feature engineering. It excels at transforming transactional and relational datasets into feature matrices for machine learning using reusable feature engineering "primitives". 
+Recommended issues tags: [Good First Issue](https://github.com/featuretools/featuretools/issues?q=is%3Aissue+is%3Aopen+label%3A%22Good+First+Issue%22), [Feature Request](https://github.com/featuretools/featuretools/issues?q=is%3Aissue+is%3Aopen+label%3A%22Feature+Request%22)
 * [Fido](https://github.com/FidoProject/Fido) - A highly-modular C++ machine learning library for embedded electronics and robotics.
 * [igraph](http://igraph.org/) - General purpose graph library.
+Recommended issues tags: [wishlist](https://github.com/igraph/igraph/issues?q=is%3Aissue+is%3Aopen+label%3Awishlist), [good first issue](https://github.com/igraph/igraph/issues?q=is%3Aissue+is%3Aopen+label%3A%22good+first+issue%22), [PR welcome](https://github.com/igraph/igraph/issues?q=is%3Aissue+is%3Aopen+label%3A%22PR+welcome%22), [help wanted](https://github.com/igraph/igraph/issues?q=is%3Aissue+is%3Aopen+label%3A%22help+wanted%22)
 * [Intel(R) DAAL](https://github.com/intel/daal) - A high performance software library developed by Intel and optimized for Intel's architectures. Library provides algorithmic building blocks for all stages of data analytics and allows to process data in batch, online and distributed modes.
 * [libffm](https://github.com/ycjuan/libffm) - A Library for Field-aware Factorization Machines 
 * [libfm](https://github.com/srendle/libfm) - A generic approach that allows to mimic most factorization models by feature engineering.
 * [LightGBM](https://github.com/Microsoft/LightGBM) - Microsoft's fast, distributed, high performance gradient boosting (GBDT, GBRT, GBM or MART) framework based on decision tree algorithms, used for ranking, classification and many other machine learning tasks.
+[List of feature requests](https://github.com/microsoft/LightGBM/issues/2302), including new algorithms, new metric functions, GPU support and more.
 * [LKYDeepNN](https://github.com/mosdeo/LKYDeepNN) - A header-only C++11 Neural Network library. Low dependency, native traditional chinese document.
 * [mkl-dnn](https://github.com/intel/mkl-dnn) - Deep Neural Network Library (DNNL) 
 * [MLDB](https://mldb.ai) - The Machine Learning Database is a database designed for machine learning. Send it commands over a RESTful API to store data, explore it using SQL, then train machine learning models and expose them as APIs.
 * [mlpack](https://www.mlpack.org/) - A scalable C++ machine learning library.
+Recommended issues tags:
+* [t: feature request](https://github.com/mlpack/mlpack/issues?q=is%3Aissue+is%3Aopen+label%3A%22t%3A+feature+request%22), [good first issue](https://github.com/mlpack/mlpack/issues?q=is%3Aissue+is%3Aopen+label%3A%22good+first+issue%22), [help wanted](https://github.com/mlpack/mlpack/issues?q=is%3Aissue+is%3Aopen+label%3A%22help+wanted%22)
+Some interesting issues:
+  * [LMNN: don't recompute impostors during an SGD batch](https://github.com/mlpack/mlpack/issues/1490)
+  * [MDL penalty for decision tree splits](https://github.com/mlpack/mlpack/issues/883)
 * [MXNet](https://github.com/apache/incubator-mxnet) - Lightweight, Portable, Flexible Distributed/Mobile Deep Learning with Dynamic, Mutation-aware Dataflow Dep Scheduler; for Python, R, Julia, Go, Javascript and more.
+Recommended issues tags: [Test](https://github.com/apache/incubator-mxnet/issues?q=is%3Aissue+is%3Aopen+label%3ATest), [Feature request](https://github.com/apache/incubator-mxnet/issues?q=is%3Aissue+is%3Aopen+label%3A%22Feature+request%22), [Good First Issue](https://github.com/apache/incubator-mxnet/issues?q=is%3Aissue+is%3Aopen+label%3A%22Good+First+Issue%22), [Doc](https://github.com/apache/incubator-mxnet/issues?q=is%3Aissue+is%3Aopen+label%3ADoc)
 * [nmslib](https://github.com/nmslib/nmslib) - Non-Metric Space Library (NMSLIB): An efficient similarity search library and a toolkit for evaluation of k-NN methods for generic non-metric spaces.
+Some interesting issues:
+  * [Feature request: Hamming distance for non-binary vectors](https://github.com/nmslib/nmslib/issues/340)
+  * [Compare against distance based hasing](https://github.com/nmslib/nmslib/issues/169)
 * [Polyaxon](https://github.com/polyaxon/polyaxon) - A platform for reproducible and scalable machine learning and deep learning.
+Recommended issues tags: [good first issue](https://github.com/polyaxon/polyaxon/issues?q=is%3Aissue+is%3Aopen+label%3A%22good+first+issue%22), [technical-debt](https://github.com/polyaxon/polyaxon/issues?q=is%3Aissue+is%3Aopen+label%3Atechnical-debt), [feature](https://github.com/polyaxon/polyaxon/issues?q=is%3Aissue+is%3Aopen+label%3Afeature), [enhancement](https://github.com/polyaxon/polyaxon/issues?q=is%3Aissue+is%3Aopen+label%3Aenhancement), [help wanted](https://github.com/polyaxon/polyaxon/issues?q=is%3Aissue+is%3Aopen+label%3A%22help+wanted%22)
 * [proNet-core](https://github.com/cnclabs/proNet-core) - A general-purpose network embedding framework: pair-wise representations optimization Network Edit.
 * [PyCUDA](https://mathema.tician.de/software/pycuda/) - Python interface to CUDA
 * [ROOT](https://root.cern.ch) - A modular scientific software framework. It provides all the functionalities needed to deal with big data processing, statistical analysis, visualization and storage.
 * [shark](http://image.diku.dk/shark/sphinx_pages/build/html/index.html) - A fast, modular, feature-rich open-source C++ machine learning library.
 * [Shogun](https://github.com/shogun-toolbox/shogun) - The Shogun Machine Learning Toolbox.
+Recommended issues tags: [good first issue](https://github.com/shogun-toolbox/shogun/issues?q=is%3Aissue+is%3Aopen+label%3A%22good+first+issue%22), [Tag: Meta Examples](https://github.com/shogun-toolbox/shogun/issues?q=is%3Aissue+is%3Aopen+label%3A%22Tag%3A+Meta+Examples%22), [Tag: Documentation](https://github.com/shogun-toolbox/shogun/issues?q=is%3Aissue+is%3Aopen+label%3A%22Tag%3A+Documentation%22), [Tag: Development Task](https://github.com/shogun-toolbox/shogun/issues?q=is%3Aissue+is%3Aopen+label%3A%22Tag%3A+Development+Task%22), [Tag: Testing](https://github.com/shogun-toolbox/shogun/issues?q=is%3Aissue+is%3Aopen+label%3A%22Tag%3A+Testing%22)
+Some intersting issues:
+  * [Implement Levenstein string distance algorithm](https://github.com/shogun-toolbox/shogun/issues/4639)
 * [skynet](https://github.com/Tyill/skynet) - A library for learning neural network, has C-interface, net set in JSON. Written in C++ with bindings in Python, C++ and C#. 
 * [sofia-ml](https://code.google.com/archive/p/sofia-ml) - Suite of fast incremental algorithms.
 * [Stan](http://mc-stan.org/) - A probabilistic programming language implementing full Bayesian statistical inference with Hamiltonian Monte Carlo sampling.
+Recommended issues tags: [code cleanup](https://github.com/stan-dev/stan/issues?q=is%3Aissue+is%3Aopen+label%3A%22code+cleanup%22), [feature](https://github.com/stan-dev/stan/issues?q=is%3Aissue+is%3Aopen+label%3Afeature), [good first issue](https://github.com/stan-dev/stan/issues?q=is%3Aissue+is%3Aopen+label%3A%22good+first+issue%22), [documentation](https://github.com/stan-dev/stan/issues?q=is%3Aissue+is%3Aopen+label%3Adocumentation), [algorithm](https://github.com/stan-dev/stan/issues?q=is%3Aissue+is%3Aopen+label%3Aalgorithm), [testing](https://github.com/stan-dev/stan/issues?q=is%3Aissue+is%3Aopen+label%3Atesting)
 * [ThunderGBM](https://github.com/Xtra-Computing/thundergbm) - A fast library for GBDTs and Random Forests on GPUs.
 * [ThunderSVM](https://github.com/Xtra-Computing/thundersvm) - A fast SVM library on GPUs and CPUs.
+Recommended issues tags: [call for contribution](https://github.com/Xtra-Computing/thundersvm/issues?q=is%3Aissue+is%3Aopen+label%3A%22call+for+contribution%22)
 * [Timbl](https://languagemachines.github.io/timbl/) - A software package/C++ library implementing several memory-based learning algorithms, among which IB1-IG, an implementation of k-nearest neighbor classification, and IGTree, a decision-tree approximation of IB1-IG. Commonly used for NLP.
 * [Vowpal Wabbit (VW)](https://github.com/VowpalWabbit/vowpal_wabbit) - A fast out-of-core learning system.
+Recommended issues tags: [Good First Issue](https://github.com/VowpalWabbit/vowpal_wabbit/issues?q=is%3Aissue+is%3Aopen+label%3A%22Good+First+Issue%22), [Technical debt](https://github.com/VowpalWabbit/vowpal_wabbit/issues?q=is%3Aissue+is%3Aopen+label%3A%22Technical+debt%22), [Feature Request](https://github.com/VowpalWabbit/vowpal_wabbit/issues?q=is%3Aissue+is%3Aopen+label%3A%22Feature+Request%22),
+[Atomization](https://github.com/VowpalWabbit/vowpal_wabbit/issues?q=is%3Aissue+is%3Aopen+label%3AAtomization), [Help wanted](https://github.com/VowpalWabbit/vowpal_wabbit/issues?q=is%3Aissue+is%3Aopen+label%3A%22Help+wanted%22), [Test Issue](https://github.com/VowpalWabbit/vowpal_wabbit/issues?q=is%3Aissue+is%3Aopen+label%3A%22Test+Issue%22), [Documentation](https://github.com/VowpalWabbit/vowpal_wabbit/issues?q=is%3Aissue+is%3Aopen+label%3ADocumentation)
 * [Warp-CTC](https://github.com/baidu-research/warp-ctc) - A fast parallel implementation of Connectionist Temporal Classification (CTC), on both CPU and GPU.
 * [XGBoost](https://github.com/dmlc/xgboost) - A parallelized optimized general purpose gradient boosting library.
+Some interesting issues:
+  * [xgboost multiclass classification problem](https://github.com/dmlc/xgboost/issues/4840)
 * [xLearn](https://github.com/aksnzhy/xlearn) - A high performance, easy-to-use, and scalable machine learning package, which can be used to solve large-scale machine learning problems. xLearn is especially useful for solving machine learning problems on large-scale sparse data, which is very common in Internet services such as online advertisement and recommender systems.
 
 <a name="cpp-nlp"></a>
